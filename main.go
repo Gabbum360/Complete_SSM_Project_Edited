@@ -127,4 +127,5 @@ r.HandleFunc("/assignS", controllers.AssignSubjectToStudent)
 //Classes Controller
 r.HandleFunc("/allClasses", controllers.GetClasses)
 http.ListenAndServe(":8001", r)
+	fmt.Println("Gabbum")
 }
