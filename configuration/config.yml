@@ -1,0 +1,27 @@
+database:
+  dbdriver: "mysql"
+  dbname: "go_school_management_system"
+  user: "root"
+  password: "gabriel1996bum"
+  tablename: "students"
+
+//  Comapany Api:
+//   version: 0.0.1
+//   title: Comapany Api
+//  Schemes: http, https
+//  Host: localhost:5000
+//  BasePath: /
+//  Produces:
+// securityDefinitions:
+//  apiKey:
+//    type: apiKey
+//    in: header
+//    name: authorization
+
+server:
+  port: 8001
+
+VAR: "variable from config.yml"
+PATH: "configuration" 
+
+//note: YML syntax are quite diff from json. the fields are positioned a bit from the mainKey.
